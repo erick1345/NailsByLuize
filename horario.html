@@ -61,7 +61,8 @@
         <h1>Reserve seu Horário</h1>
         <p>Agende um momento especial para cuidar de você!</p>
     </header>
-
+   
+</header>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="#">Luize nail design</a>
@@ -167,6 +168,28 @@
                 }
             });
         });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const horaInput = document.getElementById('hora');
+
+        horaInput.addEventListener('input', function () {
+            const horaSelecionada = this.value;
+
+            // Definir os horários permitidos
+            const horariosPermitidos = [
+                '09:00', '10:00', '11:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'
+            ];
+
+            // Verifica se a hora escolhida está na lista permitida
+            if (!horariosPermitidos.includes(horaSelecionada)) {
+                alert('Por favor, selecione um horário entre 09:00 e 11:00 ou entre 13:00 e 18:00.');
+                this.value = ''; // Limpa o campo
+            }
+        });
+    });
+
     </script>
 </body>
 
