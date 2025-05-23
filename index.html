@@ -134,6 +134,9 @@
 </style>
 </head>
 
+
+
+
 <body>
     <header>
         <h1>Bem-vinda ao Luize nail design</h1>
@@ -155,39 +158,185 @@
             </div>
         </div>
     </nav>
-
-    </div>
+    
 
     <main>
 
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-        <div class="container-fluid p-0">
-            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagens/carousel-1.jpg" class="d-block w-100" alt="Unha decorada 1">
+        <!-- Certifique-se de incluir os arquivos do Bootstrap no head -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/carousel-2.jpg" class="d-block w-100" alt="Unha decorada 2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/carousel-3.jpg" class="d-block w-100" alt="Unha decorada 3">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
-            </div>
+<section id="carouselSection" class="mb-4">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Envolvendo cada imagem em um container de ratio para manter a proporção responsiva -->
+      <div class="carousel-item active">
+        <div class="ratio ratio-16x9">
+          <img src="imagens/carousel-1.jpg" class="d-block w-100" alt="Unha decorada 1">
         </div>
+      </div>
+      <div class="carousel-item">
+        <div class="ratio ratio-16x9">
+          <img src="imagens/carousel-2.jpg" class="d-block w-100" alt="Unha decorada 2">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="ratio ratio-16x9">
+          <img src="imagens/carousel-3.jpg" class="d-block w-100" alt="Unha decorada 3">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+</section>
+
+<section id="servicos" class="mt-4">
+  <div class="container">
+    <h2 class="text-center mb-4">Serviços e Preços</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <!-- Card para Esmaltação Comum -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/esmaltecao-comum.jpg" class="card-img-top" alt="Esmaltação Comum">
+          <div class="card-body text-center">
+            <h5 class="card-title">Esmaltação Comum</h5>
+            <p class="card-text">Aplicação de esmalte tradicional, com cores vibrantes e acabamento uniforme.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 30,00</strong>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card para Esmaltação em Gel -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/esmaltecao-em-gel.jpg" class="card-img-top" alt="Esmaltação em Gel">
+          <div class="card-body text-center">
+            <h5 class="card-title">Esmaltação em Gel</h5>
+            <p class="card-text">Esmalte em gel para maior durabilidade e brilho, com secagem rápida em lâmpada UV/LED.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 50,00</strong>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card para Manicure -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/manicure.jpg" class="card-img-top" alt="Manicure">
+          <div class="card-body text-center">
+            <h5 class="card-title">Manicure</h5>
+            <p class="card-text">Cuidados com as unhas e cutículas, garantindo um visual impecável.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 40,00</strong>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card para Pedicure -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/pedicure.jpg" class="card-img-top" alt="Pedicure">
+          <div class="card-body text-center">
+            <h5 class="card-title">Pedicure</h5>
+            <p class="card-text">Tratamento completo para os pés, com hidratação e cuidados estéticos.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 60,00</strong>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card para Blindagem -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/blindagem.jpg" class="card-img-top" alt="Blindagem">
+          <div class="card-body text-center">
+            <h5 class="card-title">Blindagem</h5>
+            <p class="card-text">Tratamento de proteção para as unhas, fortalecendo e prevenindo quebras.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 80,00</strong>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Card para Alongamento -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="imagens/alongamento.jpg" class="card-img-top" alt="Alongamento">
+          <div class="card-body text-center">
+            <h5 class="card-title">Alongamento</h5>
+            <p class="card-text">Serviço de alongamento para unhas, garantindo comprimento e aparência sofisticada.</p>
+          </div>
+          <div class="card-footer text-center">
+            <strong>R$ 90,00</strong>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+      
+     
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Seção de Integração com Redes Sociais -->
+<section id="social" class="mt-4">
+  <div class="container">
+    <h2 class="text-center mb-4">Siga-nos nas Redes Sociais</h2>
+    <div class="row g-3">
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <a href="https://www.instagram.com/seuusuario/" target="_blank" aria-label="Instagram Post 1">
+          <img src="imagens/instagram1.jpg" class="img-fluid rounded" alt="Post do Instagram 1">
+        </a>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <a href="https://www.instagram.com/seuusuario/" target="_blank" aria-label="Instagram Post 2">
+          <img src="imagens/instagram2.jpg" class="img-fluid rounded" alt="Post do Instagram 2">
+        </a>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <a href="https://www.instagram.com/seuusuario/" target="_blank" aria-label="Instagram Post 3">
+          <img src="imagens/instagram3.jpg" class="img-fluid rounded" alt="Post do Instagram 3">
+        </a>
+      </div>
+    </div>
+    <!-- Botão para direcionar ao Instagram -->
+    <div class="text-center mt-3">
+      <a href="https://www.instagram.com/seuusuario/" target="_blank" class="btn btn-lg btn-pink">
+        Ver mais no Instagram
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
 
         <section id="sobre" class="mt-4">
             <h2>Sobre</h2>
