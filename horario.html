@@ -52,9 +52,22 @@
                     <input type="date" class="form-control" id="data" required>
                 </div>
                 <div class="mb-3">
-                    <label for="hora" class="form-label">Horário</label>
-                    <input type="time" class="form-control" id="hora" required>
-                </div>
+    <label for="hora" class="form-label">Horário</label>
+    <select class="form-select" id="hora" required>
+        <option value="09:00">09:00</option>
+        <option value="10:00">10:00</option>
+        <option value="11:00">11:00</option>
+        <option value="12:00">12:00</option>
+        <option value="13:00">13:00</option>
+        <option value="14:00">14:00</option>
+        <option value="15:00">15:00</option>
+        <option value="16:00">16:00</option>
+        <option value="17:00">17:00</option>
+        <option value="18:00">18:00</option>
+    </select>
+</div>
+
+
                 <div class="mb-3">
                     <label for="mensagem" class="form-label">Mensagem</label>
                     <textarea class="form-control" id="mensagem" rows="3" placeholder="Alguma observação?" required></textarea>
@@ -116,7 +129,7 @@
                 const dataFormatada = this.value;
 
                 // Verifica se é sábado, domingo ou feriado
-                if (diaSemana !== 0 && diaSemana !== 6 && !feriados.includes(dataFormatada)) {
+                if (diaSemana !== 0 && diaSemana !== 5 && !feriados.includes(dataFormatada)) {
                     alert('Por favor, selecione um sábado, domingo ou feriado.');
                     this.value = ''; // Limpa o campo de data
                 }
