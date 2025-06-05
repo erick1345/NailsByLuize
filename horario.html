@@ -43,10 +43,7 @@
                     <label for="nome" class="form-label">Nome</label>
                     <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="seuemail@example.com" required>
-                </div>
+                
                 <div class="mb-3">
                     <label for="data" class="form-label">Data</label>
                     <input type="date" class="form-control" id="data" required>
@@ -103,7 +100,7 @@
 
             // Obtém os valores dos campos do formulário
             const nome = document.getElementById('nome').value;
-            const email = document.getElementById('email').value;
+            
             const data = document.getElementById('data').value;
             const hora = document.getElementById('hora').value; // Corrigido para "hora"
             const mensagem = document.getElementById('mensagem').value;
@@ -112,7 +109,7 @@
             const numeroWhatsApp = "5542999521974";
 
             // Monta a mensagem para o WhatsApp
-            const texto = `Olá, meu nome é ${nome}. Meu email é ${email}. Gostaria de agendar para o dia ${data} às ${hora}. Observação: ${mensagem}`;
+            const texto = `Olá, meu nome é ${nome}. Gostaria de agendar para o dia ${data} às ${hora}. Observação: ${mensagem}`;
 
             // Cria a URL do WhatsApp
             const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
