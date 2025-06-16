@@ -1,43 +1,7 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nails By Luize</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<link href="imagens/logo2-removebg-preview.png" rel="shortcut icon" />
-<link rel="stylesheet" href="css/style.css">
-<body>
-  <header>
-    <h1>Nails By Luize</h1>
-  </header>
-
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
-          <li class="nav-item"><a class="nav-link" href="imagens.html">Imagens</a></li>
-          <li class="nav-item"><a class="nav-link" href="lojavelas.html">Loja</a></li>
-          <li class="nav-item"><a class="nav-link btn btn-pink btn-lg" href="horario.html">Reserve seu horario</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-  <main>
-
-
-    <!-- Certifique-se de incluir os arquivos do Bootstrap no head -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <section id="carouselSection" class="mb-4">
+     <section id="carouselSection" class="mb-4">
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-          <!-- Envolvendo cada imagem em um container de ratio para manter a proporção responsiva -->
+         
           <div class="carousel-item active">
             <div class="ratio ratio-16x9">
               <img src="imagens/carousel-1.jpg" class="d-block w-100" alt="Unha decorada 1">
@@ -77,7 +41,7 @@
             <div class="card h-100">
             
               <div class="card-body text-center">
-                <h5 class="card-title">manicure normal</h5>
+                <h5 class="card-title">Manicure normal</h5>
                 <p class="card-text">Aplicação de esmalte tradicional, com cores vibrantes e acabamento uniforme.</p>
               </div>
               <div class="card-footer text-center">
@@ -91,7 +55,7 @@
             <div class="card h-100">
              
               <div class="card-body text-center">
-                <h5 class="card-title">manicure em Gel</h5>
+                <h5 class="card-title">Manicure em Gel</h5>
                 <p class="card-text">Esmalte em gel para maior durabilidade e brilho, com secagem rápida em lâmpada
                   UV/LED.</p>
               </div>
@@ -162,9 +126,6 @@
       </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
-
     <section id="sobre" class="mt-4 py-5">
       <div class="container">
         <div class="row align-items-center">
@@ -188,8 +149,6 @@
       </div>
     </section>
 
-
-
     <section id="localizacao" class="mt-4">
       <h2>Localização</h2>
       <p>Encontre-nos facilmente!</p>
@@ -201,40 +160,6 @@
       </div>
     </section>
 
-
-
     <div class="text-center mt-3">
-      <a href="horario.html" class="btn btn-lg btn-pink">Reserve seu horário</a>
+      <a href="horario" class="btn btn-lg btn-pink text-white">Reserve seu horário</a>
     </div>
-    </section>
-
-
-
-
-  </main>
- <footer class="text-center mt-4 p-3 bg-dark text-light">
-    <p>&copy; 2025 Luize nail design. Todos os direitos reservados.</p>
-    <div class="d-flex justify-content-center gap-3">
-        <a href="https://www.instagram.com/nails.by.luize?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-light">
-            <i class="bi bi-instagram fs-3"></i>
-        </a>
-        <a href="https://pin.it/2bGvsN8uz" target="_blank" class="text-light">
-            <i class="bi bi-pinterest fs-3"></i>
-        </a>
-        <a href="https://wa.me/+554299521974" target="_blank" class="text-light">
-            <i class="bi bi-whatsapp fs-3"></i>
-        </a>
-    </div>
-</footer>
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
-
-
-
-
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
