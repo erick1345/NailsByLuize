@@ -27,7 +27,7 @@
                             <img src="imagens/velinhas.jpg" class="card-img-top" alt="Produto 2">
                             <div class="card-body">
                                 <h5 class="card-title">Velinhas</h5>
-                                <p class="card-text">.</p>
+                                <p class="card-text"></p>
                                 <p class="card-text"><strong>R$ 17,00</strong></p>
                                 <a href="https://api.whatsapp.com/send?phone=+55 42 9952-1974&text=Olá!%20Gostaria%20de%20comprar%20o%20velinhas%20." class="btn btn-pink text-white">Comprar</a>
 
