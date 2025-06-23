@@ -65,6 +65,21 @@
             </div>
           </div>
 
+
+
+          <div class="col">
+            <div class="card h-100">
+              
+              <div class="card-body text-center">
+                <h5 class="card-title">Pedicure em gel</h5>
+                <p class="card-text">Tratamento completo para os pés, com hidratação e cuidados estéticos e esmaltação em gel.</p>
+              </div>
+              <div class="card-footer text-center">
+                <strong>R$ 45,00</strong>
+              </div>
+            </div>
+          </div>
+
          
 
    
