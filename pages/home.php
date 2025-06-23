@@ -66,18 +66,6 @@
           </div>
 
          
-          <div class="col">
-            <div class="card h-100">
-             
-              <div class="card-body text-center">
-                <h5 class="card-title">Manicure</h5>
-                <p class="card-text">Cuidados com as unhas e cutículas, garantindo um visual impecável.</p>
-              </div>
-              <div class="card-footer text-center">
-                <strong>R$ 20,00</strong>
-              </div>
-            </div>
-          </div>
 
    
           <div class="col">
