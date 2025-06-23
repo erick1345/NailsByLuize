@@ -84,7 +84,7 @@
             <div class="card h-100">
               
               <div class="card-body text-center">
-                <h5 class="card-title">Pedicure normal</h5>
+                <h5 class="card-title">Pedicure </h5>
                 <p class="card-text">Tratamento completo para os pés, com hidratação e cuidados estéticos.</p>
               </div>
               <div class="card-footer text-center">
